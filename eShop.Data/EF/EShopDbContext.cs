@@ -18,7 +18,6 @@ namespace eShop.Data.EF
         {
             modelBuilder.ApplyConfiguration(new AppConfigConfigguraion());
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
-            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new ProductInCateogoryConfiguration());
 
             //base.OnModelCreating(modelBuilder);
